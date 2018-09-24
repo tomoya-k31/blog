@@ -1,0 +1,21 @@
+baseURL = "https://blog.kaku.codes/"
+title = "Blog"
+languageCode = "ja-jp"
+theme = "temple"
+
+[params]
+  highlight = true
+  # https://github.com/isagalaev/highlight.js/tree/master/src/languages
+  hjslangs = ["go", "dockerfile", "gradle", "java", "javascript", "shell", "sql", "vim", "yaml"]
+  # Enables the topmenu, which pulls from categories
+  topmenu = "categories"
+
+# Builds a list page for each category given
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[author]
+  name = "Tomoya Kakuda"
+  github = "tomoya-k31"
+  # gaid = "Your Google Analytics ID"
